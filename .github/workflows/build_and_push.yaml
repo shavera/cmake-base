@@ -20,7 +20,11 @@ jobs:
           password: ${{secrets.DOCKERHUB_TOKEN}}
       -
         name: Build and puh
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5.3.0
         with:
           push: true
-          tags: shavera/cmake-base:latest
+          ### !!! Note !!! rather than doing this right, I'm just going to
+          ### Manually set these variables when changing the base
+          tags: 
+            - shavera/cmake-base:latest
+            - shavera/cmake-base:22.04
