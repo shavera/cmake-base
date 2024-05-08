@@ -7,6 +7,8 @@ RUN <<EOT
     build-essential \
     cmake \
     clang \
+    clang-tools \
     git \
+    llvm \
     ninja-build
 EOT
