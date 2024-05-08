@@ -8,7 +8,10 @@ RUN <<EOT
     cmake \
     clang \
     clang-tools \
+    curl \
     git \
+    gpg \
     llvm \
-    ninja-build
+    ninja-build \
+    wget
 EOT
