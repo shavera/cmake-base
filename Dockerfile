@@ -13,5 +13,6 @@ RUN <<EOT
     gpg \
     llvm \
     ninja-build \
+    unzip \
     wget
 EOT
