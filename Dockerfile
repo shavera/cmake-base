@@ -12,6 +12,7 @@ RUN <<EOT
     git \
     gpg \
     llvm \
+    lcov \
     ninja-build \
     unzip \
     wget
